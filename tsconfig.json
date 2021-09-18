@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "strict": true,
+    "alwaysStrict": false,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "module": "commonjs",
+    "lib": [
+      "ES6"
+    ],
+    "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@instagram/*": [
+        "./src/instagram/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/***",
+  ],
+  "exclude": [
+    "__tests__/****",
+  ]
+}
